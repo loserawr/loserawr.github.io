@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="/style/pag-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button class="change-theme-button">
+            <img src="/assets/icons/dark-theme.svg" alt="Ícone de Modo Escuro" width="20" height="20">
+        </button>
+        <button id="increase-btn">Aumentar Fonte</button>
+        <button id="decrease-btn">Diminuir Fonte</button>
+    </header>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="overlay-content">
+            <li><a href="/html/pag-1.html">Home</a></li>
+            <li><a href="/html/pag-2.html">Galeria</a></li>
+            <li ><a href="/html/login.html">Login</a></li>
+            <li ><a href="/html/cadastro.html">Cadastro</a></li>
+        </div>
+    </div>
+
+    <button class="nav-button" onclick="openNav()">
+        <i class="fa-solid fa-bars fa02x"></i>
+    </button>
+
+  <section class="gallery">
+    <h2>Galeria de Imagens</h2>
+    <div class="main-container">
+          <div class="card-container">
+               <div class="flip">
+                  <div class="frente">
+                      
+                </div>
+                <div class="tras">
+                    <h3>Fred é um cão de raça mista, mas sua dona o considera um vira-lata. Ele adora brincar de pegar a bolinha. Apesar de ter um temperamento forte, é dócil e muito companheiro. Fred também adora frutinhas.</h3>
+                </div>
+            </div>
+        </div>
+         <div class="card-container">
+                <div class="flip">
+                    <div class="frente-kiara"></div>
+                    <div class="tras-kiara">
+                        <h3>Kiara, uma cachorrinha labrador, é preguiçosa e tranquila. Gosta de comer de tudo e tem o costume de adotar bichinhos de pelúcia. </h3>
+                    </div>
+                </div>
+            </div>
+         <div class="card-container">
+                <div class="flip">
+                    <div class="frente-rudá"></div>
+                    <div class="tras-rudá">
+                        <h3>Rudá, conhecida pela amabilidade, clássica vira-lata caramelo.
+                            Tem o hábito de deitar embaixo de cadeiras e caçar passarinhos.</h3>
+                    </div>
+                </div>
+            </div>
+         <div class="card-container">
+                <div class="flip">
+                    <div class="frente-luffy"></div>
+                    <div class="tras-luffy">
+                        <h3>Luffy é um cheetos(shih-tzu), extremamente preguiçoso e carente. Gosta de bagunçar toda a casa e lamber todas pessoas que entram</h3>
+                    </div>
+                </div>
+            </div>
+         <div class="card-container">
+                <div class="flip">
+                    <div class="frente-pretinha"></div>
+                    <div class="tras-pretinha">
+                        <h3>
+                            Pretinha é um cão de raça posto alemão de capa preta. Ela adora brincar, correr na praia e dar beijos. É muito carente e por isso não consegue ficar sozinha, é dócil e companheira.<h3>
+                    </div>
+                </div>
+            </div>
+         
+        
+          <div class="card-container">
+                <div class="flip">
+                    <div class="frente-claudio"></div>
+                    <div class="tras-claudio">
+                        <h3>Cláudio é o famoso caramelo brasileiro, mas para sua família ele é único. Ele se tornou um anjinho. Esta é uma homenagem de sua família.<h3>
+                    </div>
+                </div>
+            </div>
+
+     </div>
+  </section>
+
+</body>
+
+<!-- rodapé -->
+<footer class="footer">
+    <p> feito com <3 </p>
+  </footer>
+  
+<script src="\scripts\dark-mode.js"></script>
+<script src="\scripts\fonte.js"></script>
+<script src="\scripts\script.js"></script>
+</html>
